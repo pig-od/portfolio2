@@ -25,7 +25,7 @@ const Contact = () => {
   const sendEmail = event => {
     event.preventDefault();
     axios
-     .post('http://localhost:3000/send', { ...state })
+     .post('https://portfolio2-3r05.onrender.com', { ...state })
      .then(response => {
        setResult(response.data);
        setState({ name: '', email: '', subject: '', message: '' });
