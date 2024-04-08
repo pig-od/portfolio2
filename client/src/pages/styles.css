@@ -1,0 +1,29 @@
+
+body {
+    background: #558bc3;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+header {
+    margin: 20px;
+    text-align: center;
+}
+
+.success {
+    color: #0ff40f;
+}
+
+.error {
+    color: #960303;
+}
+
+div .form-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 20px;
+}
