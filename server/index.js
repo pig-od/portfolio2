@@ -12,7 +12,7 @@ app.use(express.static(buildPath));
 
 
 const corsOptions={
-  origin:'https://portfolio2-3r05.onrender.com',
+  origin:'https://portfolio2-1-1swe.onrender.com',
   optionsSuccessStatus:200
 }
 app.use(cors(corsOptions))
